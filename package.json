@@ -1,0 +1,42 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Shahzad's FYP server",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server",
+    "client": "npm start ",
+    "dev": "nodemon index.js ",
+    "test": "mocha"
+  },
+  "keywords": [
+    "movie",
+    "watch",
+    "online",
+    "movie",
+    "reccomendation",
+    "comedy",
+    "action"
+  ],
+  "author": "Shahzad Shah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "range-parser": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.2.0"
+  }
+}
