@@ -39,12 +39,6 @@ app.use(cors())
 // app.use(require('./router/auth'))
 app.use(errorHandler)
 
-app.use(express.static(path.join(__dirname, './client/build')))
-
-app.use('*', (req,res)=>{
-        res.sendFile(path.join(__dirname, './client/build/index.html'))
-})
-
 
 const algorithm = 'aes-256-ctr'
 let key = 'MySecretKey'
